@@ -70,9 +70,9 @@ mutex2.acquire().then((release1)=>{
 
                     _geometry.index.array = new Uint16Array([
                         0,1,3,
-                        0,3,2,
-                        //0,3,4,
+                        0,3,2,                        
                         4,5,6
+                        // a combination of 3 indices in _geometry.attributes.position.array consist one triangle
                     ]);
 
                     release1()
